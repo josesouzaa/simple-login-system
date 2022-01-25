@@ -44,7 +44,12 @@ export default function LoginForm() {
       onSubmit={handleSubmit}
     >
       <Input name="Email" type="email" value={email} setValue={setEmail} />
-      <Input name="Senha" value={password} setValue={setPassword} />
+      <Input
+        name="Senha"
+        type="password"
+        value={password}
+        setValue={setPassword}
+      />
 
       <button
         className="bg-red-600 block py-2 mt-4 rounded font-bold hover:bg-red-500 transition"

@@ -19,7 +19,7 @@ export default function User({ name, login, update }) {
       )}
 
       {update === 'true' && login === 'false' && (
-        <h1 className="text-4xl">
+        <h1 className="text-4xl text-center">
           Parabéns <span className="text-teal-500">{name}</span>, você conseguiu
           atualizar sua senha!!
         </h1>
